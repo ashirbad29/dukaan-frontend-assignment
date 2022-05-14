@@ -4,6 +4,9 @@ module.exports = {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
+    boxShadow: {
+      subtle: '0px 2px 8px rgba(26, 24, 30, 0.06)'
+    },
     container: {
       center: true,
     },
@@ -26,11 +29,12 @@ module.exports = {
         "extraLight": '#D9D9D9',
         "lighter": '#F2F2F2',
         "lightest": '#FAFAFA',
-      }
+      },
+      white: "#FFFFFF"
     },
     extend: {
       fontFamily: {
-        default: ['Galano Grotesque']
+        default: ['Galano Grotesque', 'san-serif']
       }
     },
   },

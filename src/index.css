@@ -4,17 +4,18 @@
 
 @font-face {
   font-family: 'Galano Grotesque';
-  font-style: normal;
+  font-weight: 500;
   src: url(/fonts/galanogrotesque-medium.otf) format('opentype');
 }
 @font-face {
   font-family: 'Galano Grotesque';
   font-style: normal;
+  font-weight: 400;
   src: url(/fonts/galanogrotesque-regular.otf) format('opentype');
 }
 @font-face {
   font-family: 'Galano Grotesque';
-  font-style: normal;
+  font-weight: 600;
   src: url(/fonts/galanogrotesque-semibold.otf) format('opentype');
 }
 

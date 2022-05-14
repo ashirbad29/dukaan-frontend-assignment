@@ -1,8 +1,15 @@
+import Button from './Button';
+
 const Navbar = () => {
   return (
-    <nav className="container relative z-10 flex px-5 py-5 sm:px-0">
+    <nav className="container relative z-10 flex justify-between px-5 py-5 sm:px-0">
       <img src="/logo-white.svg" alt="Dukaan logo" />
-      <div></div>
+      <div>
+        <button className="mr-8 text-white transition-all hover:underline">
+          Sign in
+        </button>
+        <Button variant="secondary">Dukaan for PC</Button>
+      </div>
     </nav>
   );
 };
