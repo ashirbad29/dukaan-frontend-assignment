@@ -2,6 +2,7 @@ import { useState } from 'react';
 
 import Button from './Button';
 import SloganForm from './SloganForm';
+import SloganItem from './SloganItem';
 
 const SlogansContainer = () => {
   const [slogan, setSlogan] = useState('something');
@@ -28,13 +29,11 @@ const SlogansContainer = () => {
         </div>
         <section className="mt-9 grid grid-cols-1 gap-x-8 gap-y-5 md:grid-cols-2">
           {[...new Array(17)].map((_, idx) => (
-            <div
-              className="flex min-h-[50px] items-center rounded bg-black-lighter py-2 px-4"
-              key={idx}>
-              <span className="text-black-dark">
-                There is no Sore it will Not Heal, No cool it will not Subdue.
-              </span>
-            </div>
+            <SloganItem
+              key={idx}
+              idx={idx}
+              slogan="There is no Sore it will Not Heal, No cool it will not Subdue."
+            />
           ))}
         </section>
       </div>
