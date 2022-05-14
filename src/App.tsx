@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar';
 import SlogansContainer from './components/SlogansContainer';
+import { promotionData } from './data';
 
 function App() {
   return (
@@ -20,6 +21,24 @@ function App() {
           </section>
         </div>
       </div>
+      <section className="mt-20 bg-primary/5 py-16">
+        <div className="container flex flex-wrap gap-8 px-4 md:px-0">
+          {promotionData.map((item, idx) => (
+            <div
+              key={item.label}
+              className="flex min-w-[300px] flex-1 flex-col items-center">
+              <item.icon />
+              <span
+                className={`mt-5 block text-xl font-medium text-black-dark ${
+                  idx === 2 && 'mt-1'
+                }`}>
+                {item.label}
+              </span>
+              <p className="text-center text-black-light">{item.description}</p>
+            </div>
+          ))}
+        </div>
+      </section>
     </div>
   );
 }

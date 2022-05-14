@@ -14,3 +14,115 @@ export const CrossIcon = (props: React.SVGAttributes<SVGSVGElement>) => (
     />
   </svg>
 );
+
+export const SearchPromotion = (props: React.SVGAttributes<SVGSVGElement>) => (
+  <svg
+    width="52"
+    height="52"
+    viewBox="0 0 52 52"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}>
+    <path
+      d="M44.6667 2H7.33333C4.38781 2 2 4.38781 2 7.33333V44.6667C2 47.6122 4.38781 50 7.33333 50H44.6667C47.6122 50 50 47.6122 50 44.6667V7.33333C50 4.38781 47.6122 2 44.6667 2Z"
+      fill="#146EB4"
+      fillOpacity="0.15"
+      stroke="#146EB4"
+      strokeWidth="3.5"
+      strokeMiterlimit="10"
+    />
+    <path d="M2 18H50" stroke="#146EB4" strokeWidth="3.5" strokeMiterlimit="10" />
+    <path d="M18 50V18" stroke="#146EB4" strokeWidth="3.5" strokeMiterlimit="10" />
+  </svg>
+);
+
+export const SelectPromotion = (props: React.SVGAttributes<SVGSVGElement>) => (
+  <svg
+    width="60"
+    height="52"
+    viewBox="0 0 60 52"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}>
+    <rect
+      x="2"
+      y="2"
+      width="56"
+      height="48"
+      rx="5"
+      fill="#146EB4"
+      fillOpacity="0.15"
+      stroke="#146EB4"
+      strokeWidth="3.5"
+      strokeMiterlimit="10"
+    />
+    <path
+      d="M20 17L28.3324 37L31.2905 28.2905L40 25.3324L20 17Z"
+      stroke="#146EB4"
+      strokeWidth="3.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
+
+export const StandOutPromotion = (props: React.SVGAttributes<SVGSVGElement>) => (
+  <svg
+    width="72"
+    height="72"
+    viewBox="0 0 72 72"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}>
+    <path
+      d="M36 64C51.464 64 64 51.464 64 36C64 20.536 51.464 8 36 8C20.536 8 8 20.536 8 36C8 51.464 20.536 64 36 64Z"
+      fill="#146EB4"
+      fillOpacity="0.15"
+      stroke="#146EB4"
+      strokeWidth="3.5"
+      strokeMiterlimit="10"
+    />
+    <path
+      d="M44 31L36 23L28 31"
+      stroke="#146EB4"
+      strokeWidth="3.2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M36 23V42.2"
+      stroke="#146EB4"
+      strokeWidth="3.2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M54 40.2857L49.7143 36L45.4286 40.2857"
+      stroke="#146EB4"
+      strokeWidth="2.6"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M49.7143 36V46.2857"
+      stroke="#146EB4"
+      strokeWidth="2.6"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M26.5714 40.2857L22.2857 36L18 40.2857"
+      stroke="#146EB4"
+      strokeWidth="2.6"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M22.2857 36V46.2857"
+      stroke="#146EB4"
+      strokeWidth="2.6"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
