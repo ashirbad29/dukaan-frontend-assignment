@@ -1,7 +1,10 @@
+import Navbar from './components/Navbar';
+
 function App() {
   return (
-    <div className="font-default">
-      <h1 className="text-yellow-400">Hello</h1>
+    <div className="relative min-h-screen bg-black-lightest">
+      <div className="absolute left-0 right-0 top-0 z-0 h-80 bg-primary" />
+      <Navbar />
     </div>
   );
 }
