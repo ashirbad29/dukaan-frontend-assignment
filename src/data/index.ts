@@ -19,3 +19,30 @@ export const promotionData = [
     icon: StandOutPromotion,
   },
 ];
+
+export const otherProductsData = [
+  {
+    label: 'Privacy Policy Generator',
+    image: '/images/privacy-policy-generator.png',
+    description:
+      'Stock your store with 100s of products and start selling to customers in minutes, without the hassle of inventory or packaging.',
+  },
+  {
+    label: 'Terms & Conditions Generator',
+    image: '/images/t&c-generator.png',
+    description:
+      'Stock your store with 100s of products and start selling to customers in minutes, without the hassle of inventory or packaging.',
+  },
+  {
+    label: 'Domain Name Generator',
+    image: '/images/domain-name-generator.png',
+    description:
+      'Stock your store with 100s of products and start selling to customers in minutes, without the hassle of inventory or packaging.',
+  },
+  {
+    label: 'Invoice Generator',
+    image: 'images/invoice-generator.png',
+    description:
+      'Stock your store with 100s of products and start selling to customers in minutes, without the hassle of inventory or packaging.',
+  },
+];

@@ -1,6 +1,6 @@
 import Navbar from './components/Navbar';
 import SlogansContainer from './components/SlogansContainer';
-import { promotionData } from './data';
+import { otherProductsData, promotionData } from './data';
 
 function App() {
   return (
@@ -35,6 +35,23 @@ function App() {
                 {item.label}
               </span>
               <p className="text-center text-black-light">{item.description}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="container mt-20 px-4 md:px-0">
+        <h2 className="mb-12 text-4xl font-bold text-black-dark">
+          Try our other free products
+        </h2>
+        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3">
+          {otherProductsData.map((product) => (
+            <div key={product.label}>
+              <img src={product.image} alt={product.label} className="w-full" />
+              <span className="mt-4 inline-block text-xl font-medium text-black-dark">
+                {product.label}
+              </span>
+              <p className="mt-1 text-black-light">{product.description}</p>
             </div>
           ))}
         </div>
