@@ -18,7 +18,7 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>((props, ref) => {
       ref={ref}
       type={type}
       className={clsx(
-        'rounded px-5 py-2 text-lg font-medium transition-all disabled:cursor-not-allowed disabled:opacity-70',
+        'rounded px-2 py-1 text-xs font-medium transition-all disabled:cursor-not-allowed disabled:opacity-70 sm:px-5 sm:py-2 sm:text-lg',
         {
           'bg-primary text-white hover:bg-primary/90': variant === 'primary',
           'bg-white text-primary hover:text-primary/80': variant === 'secondary',

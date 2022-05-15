@@ -46,3 +46,49 @@ export const otherProductsData = [
       'Stock your store with 100s of products and start selling to customers in minutes, without the hassle of inventory or packaging.',
   },
 ];
+
+export const footerLinks = [
+  [
+    {
+      label: 'Contact',
+    },
+    {
+      label: `FAQ's`,
+    },
+  ],
+  [
+    {
+      label: 'Tutorials',
+    },
+    {
+      label: `Blog`,
+    },
+  ],
+  [
+    {
+      label: 'Privacy',
+    },
+    {
+      label: `Banned items`,
+    },
+  ],
+  [
+    {
+      label: 'About',
+    },
+    {
+      label: `Jobs`,
+    },
+  ],
+  [
+    {
+      label: 'Facebook',
+    },
+    {
+      label: 'Twitter',
+    },
+    {
+      label: 'Linkedin',
+    },
+  ],
+];

@@ -1,3 +1,4 @@
+import Footer from './components/Fotter';
 import Navbar from './components/Navbar';
 import SlogansContainer from './components/SlogansContainer';
 import { otherProductsData, promotionData } from './data';
@@ -56,6 +57,7 @@ function App() {
           ))}
         </div>
       </section>
+      <Footer />
     </div>
   );
 }
