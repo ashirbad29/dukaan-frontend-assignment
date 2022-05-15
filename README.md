@@ -1,11 +1,9 @@
-# Vite typescript eslint prettier setup
+# Dukaan Frontend Assignment
 
-### Features
+### Steps to setup locally
 
-- Eslint prettier typescript Config
-- Import sort config for eslint
-- React Hooks plugin for esling
-- Tailwind setup (check out `tailwind-setup` branch)
-- Vite 🔥
-
-_use this as boilerplate template for your react typescript projects_
+- clone this repo
+- move to the project folder
+- `yarn install` to install dependencies
+- `yarn build`
+- `yarn preview` to run it on localhost
