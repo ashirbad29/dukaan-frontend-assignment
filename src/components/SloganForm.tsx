@@ -23,6 +23,7 @@ const SloganForm = ({ onGenerate }: PropTypes) => {
         placeholder="Enter something"
         label="Word for your slogan"
         id="slogan-input"
+        className="!pr-9"
         wrapperClassName="max-w-xs mb-12"
         onValueChange={(val) => setSlogan(val)}
         showClearIcon={!!slogan}

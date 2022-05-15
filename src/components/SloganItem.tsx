@@ -12,7 +12,7 @@ const SloganItem = ({ slogan, idx: key }: { slogan: string; idx: number }) => {
       onLeave={() => setSloganText('Click to copy')}
       text={sloganText}>
       <div
-        className="flex min-h-[50px] items-center rounded bg-black-lighter py-2 px-4"
+        className="flex min-h-[68px] w-full items-center rounded bg-black-lighter py-2 px-4"
         onClick={() => {
           setSloganText('Copied!');
           copyTextToClipboard(slogan);

@@ -8,7 +8,7 @@ const Footer = () => {
           <img src="/logo-white.svg" className="" alt="Dukaan Logo" />
           {footerLinks.map((links, idx) => (
             <div key={idx} className="flex sm:justify-end">
-              <div className="flex flex-col">
+              <div className="flex flex-col gap-4">
                 {links.map((link) => (
                   <a key={link.label} href={link.label}>
                     {link.label}
